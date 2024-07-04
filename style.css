@@ -1,0 +1,86 @@
+img
+{
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
+} 
+
+form
+{
+    background: rgb(255, 255, 255);
+    border-radius: 10px; /*arredonda*/
+    padding: 15px; /*engordakkk*/
+    width: 500px; 
+    margin: auto; /* centraliza*/
+    color: rgb(63, 63, 63);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
+    font-family: YoungSerif
+}
+section
+{
+    background: rgb(239, 230, 243);
+    border-radius: 10px; /*arredonda*/
+    padding: 15px; /*engordakkk*/
+    width: 400px; 
+    margin: auto; /* centraliza*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
+    
+
+}
+h2#Preparation
+{
+    color: rgb(131, 75, 156);
+}
+h2
+{
+    color: rgb(143, 71, 19);
+    margin-bottom: 20px;
+}
+div
+{
+    border-bottom: 1px solid #ddd;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+body
+{
+    font: normal 10pt Arial;
+    background-color: rgb(228, 219, 218);
+}
+li::marker
+{
+    color: rgb(143, 71, 19);
+}
+li#p::marker
+{
+    color: rgb(131, 75, 156);
+}
+p   
+{
+    margin-bottom: 20px;
+}
+li
+{
+    margin-bottom: 10px;
+}
+table th, td
+{
+    padding: 0.75rem;
+    vertical-align: top;
+    border: none;
+    /*border-bottom: 1px solid #dee2e6;*/
+    width: 80%;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+}
+td
+{
+    color: rgb(143, 71, 19);
+}
+@font-face{
+    font-family: YoungSerif;
+
+    src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
